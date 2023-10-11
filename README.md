@@ -28,3 +28,10 @@ client.list("/home/myfile")
 
 
 ```
+
+# To build from source
+
+```
+pip install build
+python -m build
+```
