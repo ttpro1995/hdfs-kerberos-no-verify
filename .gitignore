@@ -1,0 +1,12 @@
+dist/hdfs_kerberos_no_verify-0.0.1-py3-none-any.whl
+
+build/
+build/*
+dist/*
+
+src/hdfs_kerberos_no_verify.egg-info/*
+
+src/hdfs_kerberos_no_verify/template/monitorlib/__pycache__/*
+src/hdfs_kerberos_no_verify/__pycache__/*
+src/hdfs_kerberos_no_verify/alertbot/__pycache__/*
+src/hdfs_kerberos_no_verify/template/monitorlib/alertbot/__pycache__/*
