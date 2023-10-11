@@ -1,7 +1,4 @@
 [build-system]
-# any major version Jinja2 3.x  
-# any major version flake8 6.x
-# requires = ["setuptools>=61.0", "Jinja2~=3", "flake8~=6"]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
@@ -11,7 +8,7 @@ version = "0.0.1"
 authors = [
   { name="Thai Thien", email="thien.thai.meow@gmail.com" },
 ]
-description = "A small example package"
+description = "A custom of from hdfs.ext.kerberos import KerberosClient from hdfs package that allow you to use with self-signed https url."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
@@ -30,9 +27,9 @@ dependencies = [
 ]
 
 
-# [project.urls]
-# "Homepage" = "https://github.com/pypa/sampleproject"
-# "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+[project.urls]
+"Homepage" = "https://github.com/ttpro1995/hdfs-kerberos-no-verify"
+"Bug Tracker" = "https://github.com/ttpro1995/hdfs-kerberos-no-verify/issues"
 
 [tool.setuptools.packages.find]
 namespaces = true
